@@ -1,11 +1,11 @@
 # ColorSnatch Chrome Extension
 
-A simple Chrome extension that lets you grab the background color or gradient from any element on a webpage with a single click.
+A simple Chrome extension that lets you grab the background color from any element on a webpage with a single click.
 
 ## Features
 
 - One-click color extraction from any webpage element
-- Supports solid colors (RGB, HEX, etc.) and CSS gradients (linear and radial)
+- Supports solid colors RGB
 - Copy colors directly to the clipboard
 - Simple toast notification with the captured color value
 - Keyboard shortcut support (Alt+S)
