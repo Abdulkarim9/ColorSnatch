@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "ColorSnatch",
+  "version": "1.0",
+  "description": "Get the background color or gradient of any element with a click",
+  "action": {
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    },
+    "default_title": "ColorSnatch"
+  },
+  "permissions": ["activeTab", "scripting", "clipboardWrite", "contextMenus"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "web_accessible_resources": [{
+    "resources": ["toast.css"],
+    "matches": ["<all_urls>"]
+  }],
+  "commands": {
+    "activate-color-snatch": {
+      "suggested_key": {
+        "default": "Alt+S"
+      },
+      "description": "Activate ColorSnatch"
+    }
+  }
+} 
